@@ -1,0 +1,9 @@
+hight = 170
+weight = 60
+count_step = 15000
+time_active = 180
+length = hight/4+0.37
+speed = length/time_active
+print (f"Пройденная дистанция: ", length*count_step/100, f"Сожжено калорий", (0.035*weight+(speed**2/hight)*0.029*weight)*time_active)
+
+#Пройденная дистанция:  6430.5 Сожжено калорий 378.10450445117647
